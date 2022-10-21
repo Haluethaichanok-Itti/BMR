@@ -1,0 +1,40 @@
+body {
+    background-image: url('https://c.wallhere.com/photos/1c/87/minimalism_simple_simple_background_water_drops_pattern-113193.jpg!d');
+  text-align: center;
+    justify-content: center;
+}
+
+h4 {
+    color: aliceblue;
+    background-color: black;
+    font-family: monospace;
+    padding: 0.5%;
+}
+
+h3 {
+    align-content: center;
+    font-family: monospace;
+}
+h5{
+    color: aliceblue;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+button {
+    color: black;
+    padding: 20px 50px;
+    font-size: 2 rem;
+    background-color: rgb(72, 72, 139);
+    cursor: pointer;
+    margin: 20px;
+    border-radius: 30px;
+    border: 15px black;
+
+}
+.r{
+    color: aliceblue;
+    font-size: 50px;
+    font-weight: bold;
+}
+
