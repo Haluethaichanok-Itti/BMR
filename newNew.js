@@ -1,26 +1,26 @@
 function calculateBMR() 
 {
-    let age = parseInt(document.getElementById("age").value);
+    let age = parseFloat(document.getElementById("age").value);
     //console.log(age);
-    let weight = parseInt(document.getElementById("weight").value);
+    let weight = parseFloat(document.getElementById("weight").value);
     //console.log(weight);
-    let height = parseInt(document.getElementById("height").value);
+    let height = parseFloat(document.getElementById("height").value);
     //console.log(hight);
-    let gender = parseInt(document.getElementById("gender").value);
+    let gender = parseFloat(document.getElementById("gender").value);
     console.log(gender);
     let BMR = 0;
     // Male
     if (gender == 0) 
-    {  BMR = parseInt(maleBMR(age,weight,height));  
-       document.getElementById("result").innerHTML = parseInt(BMR) + "กิโลแคลอรี่";
+    {  BMR = maleBMR(age,weight,height);  
+       document.getElementById("result").innerHTML = Math.round((BMR)) + "กิโลแคลอรี่";
     
 }
 // Female
     else
     //(gender == 1) 
     {
-       BMR = parseInt(femaleBMR(age,weight,height));
-        document.getElementById("result").innerHTML = parseInt(BMR) + "กิโลแคลอรี่";
+       BMR = parseFloat(femaleBMR(age,weight,height));
+        document.getElementById("result").innerHTML = Math.round((BMR)) + "กิโลแคลอรี่";
    
     }    
    
@@ -37,6 +37,9 @@ function femaleBMR(age,weight,height)
    
    
 }
+
+
+
 
 
 
