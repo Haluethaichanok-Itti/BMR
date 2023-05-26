@@ -1,2 +1,2 @@
 # BMR
-BMR Calculator
+BMR Calculator by using HTML, CSS and JavaScropt
